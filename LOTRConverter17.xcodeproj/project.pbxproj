@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		143C77152B51138D00B679CA /* CurrencyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C77142B51138D00B679CA /* CurrencyComponent.swift */; };
 		143C77172B57059A00B679CA /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C77162B57059900B679CA /* ExchangeInfo.swift */; };
 		143C77192B570A7200B679CA /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C77182B570A7200B679CA /* ExchangeRate.swift */; };
 		143C771B2B576BB800B679CA /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C771A2B576BB800B679CA /* SelectCurrency.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		143C77142B51138D00B679CA /* CurrencyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyComponent.swift; sourceTree = "<group>"; };
 		143C77162B57059900B679CA /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
 		143C77182B570A7200B679CA /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		143C771A2B576BB800B679CA /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
@@ -48,14 +46,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		143C77132B51137000B679CA /* components */ = {
-			isa = PBXGroup;
-			children = (
-				143C77142B51138D00B679CA /* CurrencyComponent.swift */,
-			);
-			path = components;
-			sourceTree = "<group>";
-		};
 		1457ECF42B50CEBB008D692C = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +65,6 @@
 		1457ECFF2B50CEBB008D692C /* LOTRConverter17 */ = {
 			isa = PBXGroup;
 			children = (
-				143C77132B51137000B679CA /* components */,
 				1457ED002B50CEBB008D692C /* LOTRConverter17App.swift */,
 				143C771E2B5780F300B679CA /* Currency.swift */,
 				1457ED022B50CEBB008D692C /* ContentView.swift */,
@@ -178,7 +167,6 @@
 				147EF1602B5F47E200B97979 /* CurrencyTip.swift in Sources */,
 				143C77212B59BFEC00B679CA /* IconGrid.swift in Sources */,
 				143C771B2B576BB800B679CA /* SelectCurrency.swift in Sources */,
-				143C77152B51138D00B679CA /* CurrencyComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
